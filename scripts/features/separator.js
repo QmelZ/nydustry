@@ -12,12 +12,10 @@ produce = (sep) => {
             sep.items.remove(Items.graphite, 2);
             sep.items.add(Items.titanium, 1);
         }
-        
         while(sep.items.get(Items.lead) >= 2){
             sep.items.remove(Items.lead, 2);
             sep.items.add(Items.graphite, 1);
         }
-        
         while(sep.items.get(Items.copper) >= 2){
             sep.items.remove(Items.copper, 2);
             sep.items.add(Items.lead, 1);
