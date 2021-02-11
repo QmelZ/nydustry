@@ -1,7 +1,7 @@
 let give, explode;
 
 give = (mixer) => {
-    if(mixer.items.get(Items.lead) ==== 0)
+    if(mixer.items.get(Items.lead) === 0){
         mixer.items.add(Items.lead, 100);
     }
 };

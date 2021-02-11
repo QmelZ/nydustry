@@ -4,7 +4,7 @@ if(!Vars.headless){
     Core.app.post(() => {throw "This is a plugin and it shouldn't be used on clients"});
 }else{
     let features = Seq.with(
-        "thorium-reactor"
+        "thorium-reactor", "pyra-mixer", "separator", "cryo-mixer"
     );
     
     features.each(e => {
